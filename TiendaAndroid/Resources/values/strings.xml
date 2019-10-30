@@ -7,6 +7,6 @@
   <!-- Strings related to login -->
   <string name="bienvenido">Login.</string>
   <string name="prompt_email">Ingrese el email</string>
-  <string name="action_sign_in">Siguiente</string>
+  <string name="action_sign_in">Login</string>
   
 </resources>
