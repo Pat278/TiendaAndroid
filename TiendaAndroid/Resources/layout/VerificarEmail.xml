@@ -15,7 +15,8 @@
             android:minHeight="25px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/linearLayout1">
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="50dp">
             <TextView
                 android:text="@string/bienvenido"
                 android:layout_width="match_parent"
@@ -29,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/imageView1"
-                android:src="@mipmap/ic_logo"
+                android:src="@mipmap/login"
 			    />
 
             <android.support.design.widget.TextInputLayout

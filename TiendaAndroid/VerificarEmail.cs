@@ -22,6 +22,10 @@ namespace TiendaAndroid
             // Create your application here
 
             SetContentView(Resource.Layout.VerificarEmail);
+            Window window = Window;
+            window.ClearFlags(WindowManagerFlags.TranslucentStatus);
+            window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
+            window.SetStatusBarColor(Android.Graphics.Color.ParseColor("#1b3147"));
         }
     }
 }

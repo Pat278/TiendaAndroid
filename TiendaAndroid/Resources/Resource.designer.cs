@@ -4218,6 +4218,9 @@ namespace TiendaAndroid
 			// aapt resource value: 0x7F0D0003
 			public const int ic_logo = 2131558403;
 			
+			// aapt resource value: 0x7F0D0004
+			public const int login = 2131558404;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
