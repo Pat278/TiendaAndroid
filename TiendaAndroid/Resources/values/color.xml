@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="colorPromary">#2c3e50</color>
+  <color name="colorPromaryDark">#1b3147</color>
+  <color name="colorAccent">#3498db</color>
+  <color name="colorButton">#ca0047</color>
+
+  <!--Login-->
+  
+  <color name="colorText">#ffffff</color>
+</resources>

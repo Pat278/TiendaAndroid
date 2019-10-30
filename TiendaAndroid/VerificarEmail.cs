@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace TiendaAndroid
 {
-    [Activity(Label = "VerificarEmail", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar")]
     public class VerificarEmail : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
