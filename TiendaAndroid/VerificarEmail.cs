@@ -36,7 +36,7 @@ namespace TiendaAndroid
             _myEmail = FindViewById<EditText>(Resource.Id.email);
             _myButton = FindViewById<Button>(Resource.Id.email_sign_in_button);
 
-            _loginViewModel = new LoginViewModel(this, _myEmail);
+            _loginViewModel = new LoginViewModel(this);
 
             this.SetBinding(() => _myEmail.Text, () => _loginViewModel.Email);
             _myButton.SetCommand("Click", _loginViewModel.LoginCommand);

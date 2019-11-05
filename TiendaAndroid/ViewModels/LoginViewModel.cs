@@ -19,12 +19,12 @@ namespace TiendaAndroid.ViewModels
     public  class LoginViewModel : LoginModel
     {
         private VerificarEmail _verificarEmail;
-        private readonly EditText _myEmail;
+        //private readonly EditText _myEmail;
 
-        public LoginViewModel(VerificarEmail verificarEmail, EditText myEmail)
+        public LoginViewModel(VerificarEmail verificarEmail)
         {
             _verificarEmail = verificarEmail;
-            _myEmail = myEmail;
+            //_myEmail = myEmail;
         }
 
         public ICommand LoginCommand { get => new RelayCommand(login); }
