@@ -3202,64 +3202,73 @@ namespace TiendaAndroid
 			public const int ic_mtrl_chip_close_circle = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int left_in = 2131165292;
+			public const int ic_password_visibility = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int left_out = 2131165293;
+			public const int ic_password_visibility_off = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int mtrl_snackbar_background = 2131165294;
+			public const int ic_password_visibility_selector = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int mtrl_tabs_default_indicator = 2131165295;
+			public const int left_in = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int navigation_empty_icon = 2131165296;
+			public const int left_out = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_action_background = 2131165297;
+			public const int mtrl_snackbar_background = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_bg = 2131165298;
+			public const int mtrl_tabs_default_indicator = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_bg_low = 2131165299;
+			public const int navigation_empty_icon = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_bg_low_normal = 2131165300;
+			public const int notification_action_background = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_bg_low_pressed = 2131165301;
+			public const int notification_bg = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_bg_normal = 2131165302;
+			public const int notification_bg_low = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notification_bg_normal_pressed = 2131165303;
+			public const int notification_bg_low_normal = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int notification_icon_background = 2131165304;
+			public const int notification_bg_low_pressed = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int notification_template_icon_bg = 2131165305;
+			public const int notification_bg_normal = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int notification_template_icon_low_bg = 2131165306;
+			public const int notification_bg_normal_pressed = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int notification_tile_bg = 2131165307;
+			public const int notification_icon_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int notify_panel_notification_icon_bg = 2131165308;
+			public const int notification_template_icon_bg = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int side_nav_bar = 2131165309;
+			public const int notification_template_icon_low_bg = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int tooltip_frame_dark = 2131165310;
+			public const int notification_tile_bg = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int tooltip_frame_light = 2131165311;
+			public const int notify_panel_notification_icon_bg = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int side_nav_bar = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int tooltip_frame_dark = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int tooltip_frame_light = 2131165314;
 			
 			static Drawable()
 			{
@@ -3380,88 +3389,88 @@ namespace TiendaAndroid
 			public const int browser_actions_menu_view = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int buttonPanel = 2131230760;
+			public const int btnLogin = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int center = 2131230761;
+			public const int buttonPanel = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int center_horizontal = 2131230762;
+			public const int center = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int center_vertical = 2131230763;
+			public const int center_horizontal = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int checkbox = 2131230764;
+			public const int center_vertical = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int chronometer = 2131230765;
+			public const int checkbox = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int clip_horizontal = 2131230766;
+			public const int chronometer = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int clip_vertical = 2131230767;
+			public const int clip_horizontal = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int collapseActionView = 2131230768;
+			public const int clip_vertical = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int container = 2131230769;
+			public const int collapseActionView = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int content = 2131230770;
+			public const int container = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int contentPanel = 2131230771;
+			public const int content = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int coordinator = 2131230772;
+			public const int contentPanel = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int coordinator = 2131230773;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080035
-			public const int custom = 2131230773;
-			
 			// aapt resource value: 0x7F080036
-			public const int customPanel = 2131230774;
+			public const int custom = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int decor_content_parent = 2131230775;
+			public const int customPanel = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int default_activity_button = 2131230776;
+			public const int decor_content_parent = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int design_bottom_sheet = 2131230777;
+			public const int default_activity_button = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int design_menu_item_action_area = 2131230778;
+			public const int design_bottom_sheet = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int design_menu_item_action_area_stub = 2131230779;
+			public const int design_menu_item_action_area = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int design_menu_item_text = 2131230780;
+			public const int design_menu_item_action_area_stub = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_navigation_view = 2131230781;
+			public const int design_menu_item_text = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int disableHome = 2131230782;
+			public const int design_navigation_view = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int drawer_layout = 2131230783;
+			public const int disableHome = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int edit_query = 2131230784;
+			public const int drawer_layout = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int email = 2131230785;
+			public const int edit_query = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int email_sign_in_button = 2131230786;
+			public const int email = 2131230786;
 			
 			// aapt resource value: 0x7F080043
 			public const int end = 2131230787;
@@ -4439,7 +4448,7 @@ namespace TiendaAndroid
 			public const int prompt_email = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int prompt_password_email = 2131623999;
+			public const int prompt_password = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
 			public const int search_menu_title = 2131624000;

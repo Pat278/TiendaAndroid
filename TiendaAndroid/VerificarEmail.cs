@@ -38,7 +38,7 @@ namespace TiendaAndroid
 
             _myEmail = FindViewById<EditText>(Resource.Id.email);
             _password = FindViewById<EditText>(Resource.Id.password);
-            _myButton = FindViewById<Button>(Resource.Id.email_sign_in_button);
+            _myButton = FindViewById<Button>(Resource.Id.btnLogin);
 
             _loginViewModel = new LoginViewModel(this);
 

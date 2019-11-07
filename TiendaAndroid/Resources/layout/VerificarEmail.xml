@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -55,24 +56,26 @@
              <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-				android:theme="@style/CampoTextoWhite">
+				android:theme="@style/CampoTextoWhite"
+				android:textColorHint="@color/colorText"
+                app:passwordToggleDrawable="@drawable/ic_password_visibility"
+                app:passwordToggleEnabled="true">
 
-                <AutoCompleteTextView
+				<AutoCompleteTextView
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/prompt_password_email"
+                    android:hint="@string/prompt_password"
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:singleLine="true"
                     android:text="Eabs123."
-                   android:textColor="@color/colorText"
-				    />
+				    android:textColor="@color/colorText"/>
 
-            </android.support.design.widget.TextInputLayout>
+				</android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/email_sign_in_button"
+                android:id="@+id/btnLogin"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
