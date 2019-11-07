@@ -42,6 +42,11 @@ namespace TiendaAndroid
 
             _loginViewModel = new LoginViewModel(this);
 
+            //aqui corrigo el proble del realise:
+
+            _myEmail.TextChanged += (s,e) => { };
+            _password.TextChanged += (s,e)=> { };
+
             this.SetBinding(() => _myEmail.Text, () => _loginViewModel.Email);
             this.SetBinding(() => _password.Text, () => _loginViewModel.Password);
             _myButton.SetCommand("Click", _loginViewModel.LoginCommand);
