@@ -16,6 +16,8 @@ namespace TiendaAndroid.Models
     public class LoginModel : ViewModelBase
     {
         private string _email = string.Empty;
+        private string _password = string.Empty;
+
 
         public string Email 
         { 
@@ -25,6 +27,15 @@ namespace TiendaAndroid.Models
                 Set(() => Email, ref _email, value);
             }
         
+        }
+
+        public string Password 
+        { 
+            get => _password; 
+            set
+            {
+                Set(() => Password, ref _password, value);
+            }
         }
     }
 }

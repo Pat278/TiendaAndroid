@@ -60,11 +60,12 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\Validate.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\LoginModel.cs" />
-    <Compile Include="Password.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tienda.cs" />
     <Compile Include="VerificarEmail.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
   </ItemGroup>
@@ -159,7 +160,13 @@
     <AndroidResource Include="Resources\mipmap-hdpi\login.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Password.xml">
+    <AndroidResource Include="Resources\drawable\left_in.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\left_out.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tienda.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

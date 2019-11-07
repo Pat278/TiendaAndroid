@@ -12,6 +12,7 @@ using Android.Text;
 using Android.Views;
 using Android.Widget;
 using GalaSoft.MvvmLight.Command;
+using TiendaAndroid.Library;
 using TiendaAndroid.Models;
 
 namespace TiendaAndroid.ViewModels
@@ -19,18 +20,25 @@ namespace TiendaAndroid.ViewModels
     public  class LoginViewModel : LoginModel
     {
         private VerificarEmail _verificarEmail;
+
         //private readonly EditText _myEmail;
 
         public LoginViewModel(VerificarEmail verificarEmail)
         {
             _verificarEmail = verificarEmail;
+
+          
+
             //_myEmail = myEmail;
         }
 
+      
         public ICommand LoginCommand { get => new RelayCommand(login); }
 
         private void login()
         {
+
+           
             //bool cancel = false;
             //View focusView = null;
 
@@ -66,22 +74,37 @@ namespace TiendaAndroid.ViewModels
                 return;
             }
 
-            if (!IsEmailValid(Email))
+            if (!Validate.IsEmail(Email))
             {
-                Toast.MakeText(_verificarEmail, "Please, You must enter a valid Email", ToastLength.Long).Show();
+                Toast.MakeText(_verificarEmail, "Please, You must enter a valid Email", ToastLength.Long).Show(); ;
+
                 return;
             }
 
-            Toast.MakeText(_verificarEmail, Email, ToastLength.Long).Show();
+            //if (!IsEmailValid(Email))
+            //{
+            //    Toast.MakeText(_verificarEmail, "Please, You must enter a valid Email", ToastLength.Long).Show();
+            //    return;
+            //}
+
+            if (string.IsNullOrEmpty(Password))
+            {
+                Toast.MakeText(_verificarEmail, "Please, You must enter a Password", ToastLength.Long).Show();
+                return;
+            }
+
+            //Toast.MakeText(_verificarEmail, Email,  ToastLength.Long).Show();
+            _verificarEmail.StartActivity(new Intent(_verificarEmail, typeof(Tienda)));
+            _verificarEmail.OverridePendingTransition(Resource.Drawable.left_in, Resource.Drawable.left_out);
         }
 
         private bool IsEmailValid(string email)
         {
             var expresion = "\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
 
-            if (Regex.IsMatch(Email, expresion))
+            if (Regex.IsMatch(email, expresion))
             {
-                if (Regex.Replace(Email, expresion, string.Empty).Length == 0)
+                if (Regex.Replace(email, expresion, string.Empty).Length == 0)
                 {
                     return true;
                 }

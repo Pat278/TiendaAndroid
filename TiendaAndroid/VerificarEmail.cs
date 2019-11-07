@@ -20,6 +20,9 @@ namespace TiendaAndroid
         private Button _myButton;
         private LoginViewModel _loginViewModel;
         private EditText _myEmail;
+        private EditText _password;
+
+      
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -34,15 +37,20 @@ namespace TiendaAndroid
             window.SetStatusBarColor(Android.Graphics.Color.ParseColor("#1b3147"));
 
             _myEmail = FindViewById<EditText>(Resource.Id.email);
+            _password = FindViewById<EditText>(Resource.Id.password);
             _myButton = FindViewById<Button>(Resource.Id.email_sign_in_button);
 
             _loginViewModel = new LoginViewModel(this);
 
             this.SetBinding(() => _myEmail.Text, () => _loginViewModel.Email);
+            this.SetBinding(() => _password.Text, () => _loginViewModel.Password);
             _myButton.SetCommand("Click", _loginViewModel.LoginCommand);
 
 
         
         }
+
+        
+
     }
 }

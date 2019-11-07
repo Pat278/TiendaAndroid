@@ -13,6 +13,7 @@
   <string name="prompt_password_email">Ingrese el Password</string>
   <string name="action_sign_in_short">Sing In</string>
   <string name="emisoft">@EMISOFT</string>
+  <string name="tienda">Tienda</string>
 
 
 </resources>
